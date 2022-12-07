@@ -1,14 +1,8 @@
 import { useInfiniteQuery } from "@tanstack/react-query";
 import { getTodosInfinite } from "../../hooks/useTodo";
 import { Fragment } from 'react'
-// import axios from 'axios'
 
 let maxPage = 10;
-
-// const fetchColors = ({ pageParam = 1 }) => {
-//   return axios.get(`https://jsonplaceholder.typicode.com/posts?_page=${pageParam}&_limit=${limit}`)  
-// }
-
 
 export default function Infinitescroll() {
   
